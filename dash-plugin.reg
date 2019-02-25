@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\dash-plugin]
+@="Velocity Search (Dash Plugin Protocol)"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\dash-plugin\DefaultIcon]
+@="C:\\Program Files (x86)\\Silverlake Software LLC\\Velocity\\Velocity.exe,1"
+
+[HKEY_CLASSES_ROOT\dash-plugin\shell]
+
+[HKEY_CLASSES_ROOT\dash-plugin\shell\open]
+
+[HKEY_CLASSES_ROOT\dash-plugin\shell\open\command]
+@="\"C:\\Program Files (x86)\\Silverlake Software LLC\\Velocity\\Velocity.exe\" -url \"%1\""
